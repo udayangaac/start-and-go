@@ -4,9 +4,10 @@ import "github.com/udayangaac/start-and-go/boot"
 
 func main() {
 
-	boot.Application().Init()
-	boot.Application().Start(HTTPServer)
-	boot.Application().Stop()
+	app := boot.Application()
+	app.Init()
+	app.Start(HTTPServer)
+	app.Stop()
 
 }
 
