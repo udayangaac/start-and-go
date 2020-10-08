@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 	log "github.com/sirupsen/logrus"
-	file_manager "gitlab.mytaxi.lk/pickme/delivery-services/awesomeProject/file-manager"
+	file_manager "github.com/udayangaac/start-and-go/lib/file-manager"
 	"time"
 )
 

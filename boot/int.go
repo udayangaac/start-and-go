@@ -1,4 +1,4 @@
-package app
+package boot
 
 import (
 	log "github.com/sirupsen/logrus"
