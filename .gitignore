@@ -6,7 +6,6 @@
 *.dylib
 start-and-go
 
-/vendor
 
 go.sum
 
@@ -17,4 +16,7 @@ go.sum
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
+
+# Project configuration files
+.idea
