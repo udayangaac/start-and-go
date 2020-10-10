@@ -6,5 +6,8 @@ import (
 )
 
 func main() {
-
+	app := app.Application()
+	app.Init(boot.Init)
+	app.Start()
+	app.Stop()
 }
